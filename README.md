@@ -13,13 +13,10 @@ To create robust, reusable CloudFormation templates for automatically deploying 
 ✅ Easy lifecycle management (create, update, delete)
 
 📁 Repository Structure
-AWS-CloudFormation-Project/
-│
-├── s2+ec2.yaml          # CloudFormation template for EC2 + S3 deployment
-├── temp.yaml            # Simple CloudFormation template for S3 only
-├── Presentation1.pdf    # Step-by-step guide followed for the project
-├── anni2017/            # Additional project files or related configurations
-└── README.md            # This documentation
+# Templates
+- `templates/temp.yaml` → Simple S3
+- `templates/s2+ec2.yaml` → EC2 + S3
+- `docs/Presentation1.pdf` → Steps followed
 
 ⚙️ Templates Breakdown
 🟢 temp.yaml — Simple S3 Template
