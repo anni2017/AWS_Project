@@ -71,4 +71,4 @@ Integrate CloudWatch for monitoring and SNS notifications for stack events.
 Expand templates for multi-region deployment or multi-AZ setups.
 
 👩‍💻 Author
-Anjali Chopariya
+Anjali Chopariya.
