@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Simple EC2 and S3 setup
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "annu-simple-bucket20"   # must be unique and all lowercase
+
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-02d26659fd82cf299   # Amazon Linux 2 AMI (check for your region)
+      InstanceType: t2.micro
+      KeyName: "office"     # replace with your EC2 key pair
